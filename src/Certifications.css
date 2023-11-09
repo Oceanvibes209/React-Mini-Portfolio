@@ -1,0 +1,39 @@
+.certs-main {
+  background: linear-gradient(to top, darkgreen, lightgreen);
+  font-family: sans-serif;
+}
+
+.certs-nav {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.certs-nav img {
+  padding-top: 20px;
+  height: 100px;
+  width: 100px;
+}
+.certs-links {
+  font-size: 30px;
+}
+
+.certs-links:hover {
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.certs-images{
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); /* Adjust the width as needed */
+    gap: 15px; /* Adjust the gap between grid items as needed */
+}
+
+
+.certificate img {
+    width: 100%; /* Make sure the images fill the container */
+    height: auto;
+}
