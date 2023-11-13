@@ -7,6 +7,7 @@ const About = () => {
       <div className="about-nav">
         <Link to="/Home" className="about-links">Home</Link>
         <Link to="/Certifications" className="about-links">Certifications</Link>
+        <Link to="/Portfolio" className="about-links">Portfolio</Link>
         <img src="./images/2.png" alt="logo"></img>
       </div>
       <div className="about-body">

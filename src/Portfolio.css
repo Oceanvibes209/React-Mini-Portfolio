@@ -1,0 +1,43 @@
+html {
+    background: radial-gradient(
+      circle,
+      rgba(245, 91, 7, 1) 0%,
+      rgba(231, 163, 51, 1) 100%
+    );
+    padding-bottom: 50px;
+  }
+  
+  .port-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .port-nav img {
+    padding-top: 20px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .project {
+    margin: 0 30px;
+    font-size: 20px;
+    overflow: hidden; /* Clear the float and prevent overlapping */
+  }
+  
+  .project img {
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin-left: 20px; /* Adjust margin as needed for spacing */
+  }
+  
+  /* Clear the float for each .project element */
+  .project:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

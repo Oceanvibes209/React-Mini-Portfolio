@@ -60,14 +60,14 @@ const Home = () => {
               
               <div>
                 <h1>Portfolio</h1>
-                <p><a href="https://aguileradetailing.wixsite.com/portfolio/resume" target="_blank" rel="noreferrer">Portfolio</a></p>
+                <Link to="/Portfolio" className="about-links">Click Me</Link>
               </div>
             </div>
             <div className="feature four">
               
               <div>
                 <h1>About Me</h1>
-                <Link to="/About">Click me to find out</Link>
+                <Link to="/About" className="about-links">Click me</Link>
               </div>
             </div>
           </div>

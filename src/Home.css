@@ -107,12 +107,12 @@
   }
   
   .upBtn{
-    width:25px;
+    width:45px;
     cursor: pointer;
   }
   
   .downBtn{
-    width:25px;
+    width:45px;
     cursor: pointer;
     transform: rotate(180deg);
   }

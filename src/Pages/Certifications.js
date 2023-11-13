@@ -9,6 +9,7 @@ const Certifications = () => {
             <div className="certs-nav">
                 <Link to="/Home" className="certs-links">Home</Link>
                 <Link to="/About" className="certs-links">About Me</Link>
+                <Link to="/Portfolio" className="about-links">Portfolio</Link>
                 <img src="./images/2.png" alt="logo"></img>
             </div>
 
