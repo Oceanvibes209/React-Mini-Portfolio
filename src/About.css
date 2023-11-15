@@ -1,7 +1,9 @@
+
 .about-main {
+  margin: 0;
   background: linear-gradient(darkblue, lightblue);
   font-family: sans-serif;
-  width: 100%;
+  border: red solid;
 }
 
 .about-nav {
@@ -33,6 +35,7 @@
 }
 
 .about-body {
+  border: red solid;
   padding: 0 30px;
   display: flex;
   justify-content: center;
@@ -40,7 +43,6 @@
   flex-direction: column;
   color: #fff;
   line-height: 20px;
-  text-align: left;
   font-size: 20px;
 }
 
