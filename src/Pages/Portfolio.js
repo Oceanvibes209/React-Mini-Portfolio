@@ -5,9 +5,9 @@ const Portfolio = () => {
     return (
         <div className="port-main">
             <div className="port-nav">
-                <Link to="/Home" className="about-links">Home</Link>
-                <Link to="/About" className="certs-links">About Me</Link>
-                <Link to="/Certifications" className="about-links">Certifications</Link>
+                <Link to="/Home" className="port-links">Home</Link>
+                <Link to="/About" className="port-links">About Me</Link>
+                <Link to="/Certifications" className="port-links">Certifications</Link>
                 <img src="./images/2.png" alt="logo"></img>
             </div>
 

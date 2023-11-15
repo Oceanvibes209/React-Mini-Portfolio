@@ -41,3 +41,16 @@
     clear: both;
   }
   
+
+  @media screen and (max-width:690px) {
+
+    .port-links{
+      font-size: 15px;
+    }
+
+    .port-nav img{
+      height: 50px;
+      width: 50px;
+    }
+    
+  }

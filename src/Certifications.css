@@ -1,6 +1,7 @@
 .certs-main {
   background: linear-gradient(to top, darkgreen, lightgreen);
   font-family: sans-serif;
+  width: 100%;
 }
 
 .certs-nav {
@@ -25,15 +26,38 @@
   border-radius: 5px;
 }
 
-.certs-images{
-    padding: 20px 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); /* Adjust the width as needed */
-    gap: 15px; /* Adjust the gap between grid items as needed */
+.certs-images {
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(450px, 1fr)
+  ); /* Adjust the width as needed */
+  gap: 15px; /* Adjust the gap between grid items as needed */
 }
 
-
 .certificate img {
-    width: 100%; /* Make sure the images fill the container */
+  width: 100%; /* Make sure the images fill the container */
+  height: auto;
+}
+
+@media screen and (max-width: 690px) {
+
+  .certs-images {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the minmax value */
+  }
+
+  .certs-links {
+    font-size: 20px;
+  }
+
+  .certs-nav img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .certificate img {
+    width: 100%;
     height: auto;
+  }
 }
