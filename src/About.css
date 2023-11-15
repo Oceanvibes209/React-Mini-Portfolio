@@ -3,7 +3,6 @@
   margin: 0;
   background: linear-gradient(darkblue, lightblue);
   font-family: sans-serif;
-  border: red solid;
 }
 
 .about-nav {
@@ -35,7 +34,6 @@
 }
 
 .about-body {
-  border: red solid;
   padding: 0 30px;
   display: flex;
   justify-content: center;
