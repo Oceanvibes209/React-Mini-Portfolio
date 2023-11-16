@@ -44,11 +44,12 @@
 @media screen and (max-width: 690px) {
 
   .certs-images {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the minmax value */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value */
   }
 
   .certs-links {
-    font-size: 20px;
+    font-size: 4vw;
+    /* Makes the font shrink with the browser */
   }
 
   .certs-nav img {

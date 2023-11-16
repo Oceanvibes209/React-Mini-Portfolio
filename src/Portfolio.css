@@ -53,11 +53,23 @@
 
 @media screen and (max-width: 690px) {
   .port-links {
-    font-size: 15px;
+    font-size: 4vw; 
+    /* Makes the font shrink with the browser */
   }
 
   .port-nav img {
     height: 50px;
     width: 50px;
+  }
+
+  .project p{
+    font-size:4vw;
+  }
+
+  /* To make the images flexible */
+  .project img{ 
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
   }
 }
