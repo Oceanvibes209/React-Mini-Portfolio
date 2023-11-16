@@ -67,7 +67,7 @@ const Home = () => {
         <div className="circle" style={circleStyle}>
           <div className="feature one">
 
-            <div>
+            <div className='intro'>
               <h1>Who am I?</h1>
               <p>I am Alexandro Aguilera</p>
               <p>A Web Developer</p>
@@ -78,7 +78,7 @@ const Home = () => {
 
             <div>
               <h1>Contact</h1>
-              <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+              <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" className='home-links' target="_blank" rel="noreferrer">LinkedIn</a></p>
             </div>
           </div>
           <div className="feature three">

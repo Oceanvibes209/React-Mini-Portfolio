@@ -1,7 +1,7 @@
 
-.about-main {
-  margin: 0;
-  background: linear-gradient(darkblue, lightblue);
+.about-main { 
+  height: 100%;
+  background: linear-gradient(rgb(1, 1, 132), rgb(106, 193, 222));
   font-family: sans-serif;
 }
 
@@ -31,24 +31,18 @@
 .about-title {
   padding-bottom: 30px;
   text-align: center;
+  text-decoration: underline;
 }
 
 .about-body {
-  padding: 0 30px;
+  padding:20px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #fff;
-  line-height: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
-
-.about-body p {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 
 @media screen and (max-width:690px) {
 
@@ -67,6 +61,6 @@
 }
 
   .about-body{
-    font-size: 15px;
+    font-size: 4vw;
   }
 }

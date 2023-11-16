@@ -21,8 +21,6 @@ const About = () => {
         <p>But for me, web development is about more than just technical know-how. It's about solving real-world problems and making a positive impact. It's about collaborating with others, learning from their experiences, and giving back to the tech community.</p>
         <p>As I continue my studies and practical experiences, I'm not only building the technical skills required but also cultivating a mindset of innovation and adaptability. The world of web development is a dynamic one, and I'm excited to be part of it, constantly evolving and embracing change.</p>
         <p>My journey is far from over. I'm fueled by a passion for coding and an insatiable curiosity for the future. I see each project, each line of code, as an opportunity to learn and grow. I'm excited about the challenges that lie ahead and the people I'll meet along the way.</p>
-        <hr/>
-
       </div>
     </div>
 
