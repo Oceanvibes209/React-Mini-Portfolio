@@ -8,7 +8,7 @@ const About = () => {
         <Link to="/Home" className="about-links">Home</Link>
         <Link to="/Certifications" className="about-links">Certifications</Link>
         <Link to="/Portfolio" className="about-links">Portfolio</Link>
-        <img src="./images/2.png" alt="logo"></img>
+        <a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer"><img src="./images/2.png" alt="logo"></img></a>
       </div>
       <div className="about-body">
         <h1 className="about-title">My Journey in Web Development</h1>

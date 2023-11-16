@@ -10,7 +10,7 @@ const Certifications = () => {
                 <Link to="/Home" className="certs-links">Home</Link>
                 <Link to="/About" className="certs-links">About Me</Link>
                 <Link to="/Portfolio" className="about-links">Portfolio</Link>
-                <img src="./images/2.png" alt="logo"></img>
+                <a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer"><img src="./images/2.png" alt="logo"></img></a>
             </div>
 
             <div className="certs-images">
