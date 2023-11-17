@@ -49,13 +49,13 @@ const Portfolio = () => {
                 </p>
                 </div>
 
-                <div className="project">
+                {/* <div className="project">
                 <h1>Business Card</h1>
                 <a href="https://react-aguilera-business-card.netlify.app/" target="_blank" rel="noreferrer"><img src="./images/React-business-card-aa.png" alt=""></img></a>
                 <p>
                     A online business card showcasing some of my ability with ReactJS
                 </p>
-                </div>
+                </div> */}
                 
                 <div className="project">
                 <h1>Random Dog Image Generator</h1>
