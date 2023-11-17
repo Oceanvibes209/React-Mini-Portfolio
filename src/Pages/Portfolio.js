@@ -21,7 +21,7 @@ const Portfolio = () => {
                 </p>
                 </div>
 
-                <div className="project">
+                {/* <div className="project">
                 <h1>HylianBee Website</h1>
                 <a href="https://hylianbee-clips-webpage-aa.netlify.app/" target="_blank" rel="noreferrer"><img src="./images/HB-website.png" alt=""></img></a>
                 <p>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                     so users can gain instant access to see her channel and increase traffic. It has an updated list of games she has played with images linking to her twitch clips corresponding
                     to the game. There is also a list of future games she will play on her channel. The style of the website is inspired by all the things she loves.
                 </p>
-                </div>
+                </div> */}
                 
                 <div className="project">
                 <h1>BVT Login UI</h1>
