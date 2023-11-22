@@ -66,6 +66,8 @@
 
 .hidden-ones img {
   width: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.6);
 }
 
 /* Desktop View */
@@ -183,7 +185,8 @@ a:hover {
   left: 27%;
   transform: translateY(-50%);
   z-index: 1;
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.8);
 }
 
 .controls {
