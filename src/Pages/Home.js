@@ -44,21 +44,20 @@ const Home = () => {
           <p>A Web Developer</p>
           <p>Certified by Bay Valley Tech</p>
         </div>
-        <div>
-
-          <div>
+        <div className='hidden-links'>
+          <div className='hidden-link'>
             <h1>About Me</h1>
             <Link to="/About" className="home-links">Click me</Link>
           </div>
 
-          <div>
+          <div className='hidden-link'>
             <h1>Contact</h1>
-            <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" className="home-links"target="_blank" rel="noreferrer">LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" className="home-links" target="_blank" rel="noreferrer">LinkedIn</a></p>
           </div>
-          <h1>Portfolio</h1>
-          <Link to="/Portfolio" className="home-links">My Work</Link>
-        </div>
-        <div className='hidden-links'>
+          <div className='hidden-link'>
+            <h1>Portfolio</h1>
+            <Link to="/Portfolio" className="home-links">My Work</Link>
+          </div>
         </div>
       </div>
       <div className="information">
@@ -75,7 +74,6 @@ const Home = () => {
             </div>
           </div>
           <div className="feature two">
-
             <div>
               <h1>Contact</h1>
               <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" className='home-links' target="_blank" rel="noreferrer">LinkedIn</a></p>

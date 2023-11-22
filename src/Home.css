@@ -1,4 +1,3 @@
-
 .main {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@
 
 .home-links {
   font-size: 30px;
- line-height: 60px;
+  line-height: 60px;
 }
 
 .home-links:hover {
@@ -20,7 +19,7 @@
   border-radius: 5px;
 }
 
-.intro p{
+.intro p {
   font-size: 20px;
 }
 
@@ -56,24 +55,7 @@
   top: 0;
 }
 
-@media screen and (max-width: 1140px) {
-  .overlay,
-  .controls,
-  .circle,
-  .information {
-    display: none;
-  }
-
-.main{
-  height: 100%;
-}
-
-  .hidden-ones{
-    display:flex;
-  }
-}
-
-.hidden-ones{
+.hidden-ones {
   padding: 20px 0;
   text-align: center;
   display: flex;
@@ -82,15 +64,51 @@
   flex-direction: column;
 }
 
-.hidden-ones img{
+.hidden-ones img {
   width: 200px;
 }
 
-@media screen and (min-width: 1141px) {
-  .hidden-ones{
+/* Desktop View */
+@media screen and (min-width: 1025px) {
+  .hidden-ones {
     display: none;
   }
-  
+}
+
+ /* Tablet View */
+@media screen and (max-width: 1024px) {
+  .overlay,
+  .controls,
+  .circle,
+  .information {
+    display: none;
+  }
+ 
+ .hidden-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .hidden-link{
+    padding-right: 20px;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 466px) {
+  .hidden-ones {
+    justify-content: none;
+    flex-direction: column;
+  }
+
+  .hidden-links {
+    flex-direction: column;
+  }
+
+  .main {
+    height: 100%;
+  }
 }
 
 .feature {
@@ -114,7 +132,7 @@
 
 .two {
   top: 100px;
-  left: 400px;
+  left: 420px;
   transform: rotate(-90deg);
 }
 
@@ -129,7 +147,24 @@
   right: 400px;
   transform: rotate(-270deg);
 }
+@media screen and (max-width: 1130px){
+  .one{
+    right:150px;
+  }
 
+  .two{
+    top:200px;
+  }
+
+  .three{
+    left:200px;
+  }
+
+  .four{
+    bottom:200px ;
+    
+  }
+}
 a {
   margin-left: 10px;
   font-size: 21px;
