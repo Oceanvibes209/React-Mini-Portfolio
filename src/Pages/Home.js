@@ -47,7 +47,7 @@ const Home = () => {
         <div className='hidden-links'>
           <div className='hidden-link'>
             <h1>About Me</h1>
-            <Link to="/About" className="home-links">Click me</Link>
+            <Link to="/About" className="home-links">Learn More!</Link>
           </div>
 
           <div className='hidden-link'>
@@ -83,14 +83,14 @@ const Home = () => {
 
             <div>
               <h1>Portfolio</h1>
-              <Link to="/Portfolio" className="about-links">Click Me</Link>
+              <Link to="/Portfolio" className="about-links">My Work</Link>
             </div>
           </div>
           <div className="feature four">
 
             <div>
               <h1>About Me</h1>
-              <Link to="/About" className="about-links">Click me</Link>
+              <Link to="/About" className="about-links">Learn More!</Link>
             </div>
           </div>
         </div>
