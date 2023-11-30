@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Portfolio.css"
+import "../Styles/Portfolio.css"
 const Portfolio = () => {
     return (
         <div className="port-main">
             <div className="port-nav">
-                <Link to="/Home" className="port-links">Home</Link>
+                <Link to="/Home"><img src="./images/2.png" alt="logo"/></Link>
                 <Link to="/About" className="port-links">About Me</Link>
                 <Link to="/Certifications" className="port-links">Certifications</Link>
-                <a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer"><img src="./images/2.png" alt="logo"></img></a>
+                <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer" className="port-links">LinkedIn</a></p> {/* Will change it to a Contacts page later on*/}
             </div>
 
                 <div className="project">

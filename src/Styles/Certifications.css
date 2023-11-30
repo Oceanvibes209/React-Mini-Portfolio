@@ -44,12 +44,13 @@
     auto-fill,
     minmax(450px, 1fr)
   ); /* Adjust the width as needed */
-  gap: 15px; /* Adjust the gap between grid items as needed */
+  gap: 20px; /* Adjust the gap between grid items as needed */
 }
 
 .certificate img {
   width: 100%; /* Make sure the images fill the container */
   height: auto;
+  box-shadow: 8px 8px 10px 1px rgba(0,0,0,0.75);
 }
 
 @media screen and (max-width: 690px) {

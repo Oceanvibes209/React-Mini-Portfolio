@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import "../Home.css"
+import "../Styles/Home.css"
 
 const Home = () => {
 
@@ -24,7 +24,7 @@ const Home = () => {
 
   const handleDownBtnClick = () => {
     rotateCircle(90);
-    // This line calls the rotateCircle function with a value of 90 degrees when the "upBtn" (up button) is clicked, which rotates the circle clockwise.
+    // This line calls the rotateCircle function with a value of 90 degrees when the "DownBtn" (up button) is clicked, which rotates the circle clockwise.
   };
 
   const circleStyle = {
@@ -63,7 +63,7 @@ const Home = () => {
       <div className="information">
         <div className="overlay"></div>
         <img src="./images/2.png" alt="logo" className="main--logo" />
-        <div className="circle" style={circleStyle}>
+        <div className="circle" style={circleStyle}> {/*circle rotations*/}
           <div className="feature one">
 
             <div className='intro'>
