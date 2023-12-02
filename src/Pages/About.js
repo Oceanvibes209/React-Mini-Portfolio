@@ -8,8 +8,7 @@ const About = () => {
         <Link to="/Home"><img src="./images/2.png" alt="logo"/></Link>
         <Link to="/Certifications" className="about-links">Certifications</Link>
         <Link to="/Portfolio" className="about-links">Portfolio</Link>
-        <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer" className="about-links">LinkedIn</a></p> {/* Will change it to a Contacts page later on*/}
-        {/* <a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer"></a> */}
+        <Link to="/Contact" className="about-links">Contact</Link>
       </div>
       <div className="about-body">
         <h1 className="about-title">My Journey in Web Development</h1>

@@ -8,6 +8,7 @@ const Portfolio = () => {
                 <Link to="/Home"><img src="./images/2.png" alt="logo"/></Link>
                 <Link to="/About" className="port-links">About Me</Link>
                 <Link to="/Certifications" className="port-links">Certifications</Link>
+                <Link to="/Contact" className="port-links">Contact</Link>
                 <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer" className="port-links">LinkedIn</a></p> {/* Will change it to a Contacts page later on*/}
             </div>
 

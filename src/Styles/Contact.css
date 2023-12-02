@@ -1,0 +1,119 @@
+.contact-main {
+  min-height: 100vh;
+  background: linear-gradient(gray, darkgray);
+  /* padding-top: 100px; */
+  /* This is the code for a nav bar that stays on screen as you scroll down */
+}
+
+.contact-nav {
+  /* position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    z-index: 1000; Set a high z-index to make sure it appears above other elements */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 10px 7px -7px #3c3c3c;
+  padding-bottom: 10px;
+}
+
+.contact-links {
+  font-size: 30px;
+}
+
+.contact-links:hover {
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.contact-nav img {
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.8);
+}
+
+form {
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 200px;
+  width: 400px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+input,
+textarea,
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.contact-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-social-links img {
+  width: 100px;
+}
+
+footer {
+  margin-top:20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 690px) {
+  .contact-links {
+    font-size: 4vw;
+    /* Makes the font shrink with the browser */
+  }
+
+  .contact-nav img {
+    height: 50px;
+    width: 50px;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 80vw;
+  }
+
+  footer p, footer a{
+    font-size: 2vw;
+  }
+}

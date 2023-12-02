@@ -75,8 +75,8 @@ const Home = () => {
           </div>
           <div className="feature two">
             <div>
-              <h1>Contact</h1>
-              <p><a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" className='home-links' target="_blank" rel="noreferrer">LinkedIn</a></p>
+              <h1>Contact Me</h1>
+              <Link to="/Contact" className="about-links">Here!</Link>
             </div>
           </div>
           <div className="feature three">
