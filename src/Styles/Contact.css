@@ -1,8 +1,14 @@
 .contact-main {
   min-height: 100vh;
-  background: linear-gradient(gray, darkgray);
+  background: url("/public/images/Plastic-Texture-1.png");
+  background-color: #131313;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size:cover; */
+  /* background: linear-gradient(gray, darkgray); */
+   /* This is the code for a nav bar that stays on screen as you scroll down */
   /* padding-top: 100px; */
-  /* This is the code for a nav bar that stays on screen as you scroll down */
 }
 
 .contact-nav {
@@ -11,6 +17,7 @@
     width: 100%;
     padding-bottom: 10px;
     z-index: 1000; Set a high z-index to make sure it appears above other elements */
+  background: linear-gradient(rgb(215, 215, 215), rgb(93, 93, 93));
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -24,8 +31,9 @@
 
 .contact-links:hover {
   color: black;
-  background-color: #fff;
-  border-radius: 5px;
+  text-decoration: underline;
+  /* background-color: #fff; */
+  /* border-radius: 5px; */
 }
 
 .contact-nav img {

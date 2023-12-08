@@ -1,13 +1,20 @@
 .port-main {
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle,
     rgba(245, 91, 7, 1) 0%,
-    rgba(231, 163, 51, 1) 100%
-  );
+    rgb(224, 154, 40) 100%
+  ); */
+
+  background: url("/public/images/Plastic-Texture-15.png");
+  background-color: #131313;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-bottom: 50px;
 }
 
 .port-nav {
+  background: linear-gradient(rgb(215, 215, 215), rgb(93, 93, 93));
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -23,8 +30,9 @@
 
 .port-links:hover {
   color: black;
-  background-color: #fff;
-  border-radius: 5px;
+  text-decoration: underline;
+  /* background-color: #fff; */
+  /* border-radius: 5px; */
 }
 
 .port-nav img {
@@ -36,9 +44,16 @@
 }
 
 .project {
+  color: #fff;
+  text-shadow: 2px 2px black ;
   margin: 0 30px;
   font-size: 20px;
   overflow: hidden; /* Clear the float and prevent overlapping */
+}
+
+.project p{
+  background-color: #3c3c3cc3;
+  /* font-size: 20px; */
 }
 
 .project img {

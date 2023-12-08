@@ -17,13 +17,13 @@ const Contact = () => {
                 <button type="submit">Send</button>
             </form>
             <div className="contact-social-links">
-                <a href="https://github.com/Oceanvibes209" target="_blank" rel="noreferrer" ><img src="./images/github.png" alt="github logo" ></img></a>
+                <a href="https://github.com/Oceanvibes209" target="_blank" rel="noreferrer" ><img src="./images/github-blue.png" alt="github logo" ></img></a>
                 <a href="https://www.linkedin.com/in/alexandro-aguilera-aa3b43143/" target="_blank" rel="noreferrer"><img src="./images/linkedin.png" alt="linkedin logo" ></img></a>
             </div>
             <footer>
                 <p>Website Designed and Created by Alexandro Aguilera</p>
-                <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/github" title="github icons" target="_blank" rel="noreferrer">Github icons created by Freepik - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons" target="_blank" rel="noreferrer">Linkedin icons created by riajulislam - Flaticon</a>
             </footer>
         </div>
     )

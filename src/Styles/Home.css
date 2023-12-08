@@ -5,7 +5,8 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  /* background: linear-gradient(to right, #9c27b0, #8ecdff); */
+  background: linear-gradient(to right,rgb(180, 180, 180), rgb(30, 30, 30));
 }
 
 .home-links {
@@ -175,7 +176,8 @@ a {
 }
 
 a:hover {
-  color: #9c27b0;
+  /* color: #9c27b0; */
+  color: black;
 }
 
 .main--logo {
@@ -215,6 +217,7 @@ a:hover {
 
 .upBtn:hover,
 .downBtn:hover {
-  background-color: #a240b3;
+  /* background-color: #a240b3; */
+  background-color: black;
   border-radius: 10px;
 }
